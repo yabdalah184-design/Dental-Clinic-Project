@@ -1,0 +1,223 @@
+.page-contact .thefirst {
+    background: linear-gradient(rgba(8, 8, 131, 0.85), rgba(8, 8, 131, 0.85)), url(/images/Dental-Clinic02.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 80px 20px 60px;
+    margin-bottom: 30px;
+}
+
+.page-contact .thefirst h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-contact .thefirst p {
+    font-size: 17px;
+    color: #cbd5e1;
+}
+
+.page-contact .thesecond {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.page-contact .thesecond .contact-card {
+    text-align: center;
+    text-transform: capitalize;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    flex: 1 1 260px;
+    padding: 35px 20px;
+    background: #fff;
+    border-bottom: 3px solid #0cb4c0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.page-contact .thesecond .contact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(12, 180, 192, 0.2);
+}
+
+.page-contact .thesecond .contact-card i {
+    color: rgb(7, 153, 163);
+    background: #e6fffa;
+    border-radius: 50%;
+    padding: 16px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.page-contact .thesecond .contact-card h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #1a202c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-contact .thesecond .contact-card h3 {
+    font-size: 15px;
+    color: #64748b;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    word-break: break-all;
+}
+
+/* Form */
+.page-contact .thethird {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+
+.page-contact .thethird form {
+    background-color: rgba(34, 145, 189, 0.92);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.page-contact #head h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-contact .colums {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.page-contact .colum1,
+.page-contact .colum2 {
+    flex: 1 1 300px;
+}
+
+.page-contact .form-group {
+    margin-bottom: 20px;
+}
+
+.page-contact label {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-contact label span {
+    color: #fed7aa;
+    margin-left: 3px;
+}
+
+.page-contact input,
+.page-contact textarea {
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.2s;
+}
+
+.page-contact input::placeholder,
+.page-contact textarea::placeholder {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.page-contact input:focus,
+.page-contact textarea:focus {
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: #fff;
+}
+
+.page-contact input.has-error,
+.page-contact textarea.has-error {
+    border-color: #fecaca;
+    background-color: rgba(239, 68, 68, 0.15);
+}
+
+.page-contact .error-text {
+    color: #ffe4e6;
+    background: rgba(225, 29, 72, 0.7);
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+
+.page-contact textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.page-contact .send {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.page-contact #delete {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.page-contact #delete:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.page-contact #send {
+    background: #1a202c;
+    border: 2px solid #1a202c;
+    color: #fff;
+    padding: 10px 26px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.page-contact #send:hover:not(:disabled) {
+    background: #0cb4c0;
+    border-color: #0cb4c0;
+}
+
+.page-contact #send:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

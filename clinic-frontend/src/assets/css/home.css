@@ -1,0 +1,559 @@
+.page-home .header {
+    width: 100%;
+    min-height: 105vh;
+    background-image: url("/images/R (7).jpg");
+    background-color: rgba(0, 0, 0, 0.418);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding-bottom: 50px;
+}
+
+.page-home .header .information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.page-home .header .information .tooth {
+    width: 30%;
+}
+
+.page-home .header .information .spn1 {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.page-home .header .information .spn2 {
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.page-home .information .middle {
+    width: 45%;
+}
+
+.page-home .information ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-home .information ul li {
+    list-style: none;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.page-home .information .text {
+    margin-left: 10px;
+}
+
+.page-home .information .icon i {
+    color: rgb(12, 180, 192);
+}
+
+.page-home .information .text #p1 {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+}
+
+.page-home .information .text #p2 {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.page-home .information .but {
+    display: flex;
+    align-items: center;
+}
+
+.page-home .information #bt {
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: rgb(12, 180, 192);
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.page-home .information #bt:hover {
+    background-color: rgb(7, 153, 163);
+}
+
+.page-home .main {
+    position: relative;
+}
+
+.page-home .abs {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.page-home .s0 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-home .s0 span {
+    animation-name: opaciting;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+
+.page-home .s0 #s2 { animation-delay: 0.13s; margin-left: 15px; }
+.page-home .s0 #s3 { animation-delay: 0.26s; margin-left: 15px; }
+.page-home .s0 #s4 { animation-delay: 0.39s; margin-left: 15px; }
+.page-home .s0 #s5 { animation-delay: 0.52s; margin-left: 15px; }
+.page-home .s0 #s6 { animation-delay: 0.65s; margin-left: 15px; }
+.page-home .s0 #s7 { animation-delay: 0.78s; margin-left: 25px; }
+.page-home .s0 #s8 { animation-delay: 0.91s; margin-left: 15px; }
+.page-home .s0 #s9 { animation-delay: 1.04s; margin-left: 15px; }
+.page-home .s0 #s10 { animation-delay: 1.17s; margin-left: 15px; }
+
+@keyframes opaciting {
+    to {
+        color: rgb(51, 168, 177);
+    }
+}
+
+.page-home .abs p {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 0px 10%;
+    line-height: 28px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-home .abs .app {
+    background-color: rgb(51, 168, 177);
+    text-decoration: none;
+    padding: 14px 24px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.page-home .abs .app:hover {
+    background-color: #fff;
+    color: rgb(51, 168, 177);
+}
+
+.page-home .course {
+    background-color: #fff;
+    text-decoration: none;
+    padding: 14px 24px;
+    color: rgb(51, 168, 177);
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-left: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.page-home .course:hover {
+    background-color: rgb(51, 168, 177);
+    color: #fff;
+}
+
+.page-home .angels {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.page-home .angels i {
+    color: #fff;
+    animation: angelsupanddown 0.9s infinite alternate ease-in-out;
+}
+
+.page-home .angels i:hover {
+    color: rgb(12, 180, 192);
+}
+
+@keyframes angelsupanddown {
+    to {
+        transform: translateY(15px);
+        opacity: 0.5;
+    }
+}
+
+/* Advantages Section */
+.page-home .adventages {
+    padding: 60px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-home .adventages h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.page-home .contanier1,
+.page-home .contanier2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    text-align: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.page-home .adventages1,
+.page-home .adventages2,
+.page-home .adventages3,
+.page-home .adventages4,
+.page-home .adventages5,
+.page-home .adventages6 {
+    padding: 35px 25px;
+    border-radius: 8px;
+    flex: 1 1 30%;
+    min-width: 260px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.page-home .contanier1 i,
+.page-home .contanier2 i {
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.page-home .contanier1 h2,
+.page-home .contanier2 h2 {
+    padding-top: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.page-home .contanier1 p,
+.page-home .contanier2 p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #e2e8f0;
+    line-height: 22px;
+}
+
+.page-home .adventages1 { background: linear-gradient(190deg, #17c1b9, #3b40cd); color: #fff; }
+.page-home .adventages2 { background-color: #1a202c; color: #fff; }
+.page-home .adventages3 { background: linear-gradient(190deg, #17c1b9, #3b40cd); color: #fff; }
+.page-home .adventages4 { background-color: #1a202c; color: #fff; }
+.page-home .adventages5 { background: linear-gradient(190deg, #17c1b9, #3b40cd); color: #fff; }
+.page-home .adventages6 { background-color: #1a202c; color: #fff; }
+
+/* About Section */
+.page-home .about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.04);
+    padding: 70px 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.page-home .wrd {
+    flex: 1 1 500px;
+}
+
+.page-home .wrd h3 {
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: #222;
+}
+
+.page-home .wrd span {
+    color: rgb(51, 168, 177);
+    font-weight: bold;
+}
+
+.page-home .wrd p {
+    color: rgba(0, 0, 0, 0.65);
+    padding-top: 20px;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.page-home .pic img {
+    width: 100%;
+    max-width: 440px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.page-home .aus {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.04);
+    padding-bottom: 50px;
+}
+
+.page-home #us {
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #1a202c;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.page-home #us:hover {
+    background-color: rgb(51, 168, 177);
+}
+
+/* Services Preview */
+.page-home .services {
+    padding: 70px 30px 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.page-home .services h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.page-home .contanier3 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.page-home .services #serv1,
+.page-home .services #serv2 {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    padding: 40px 30px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 350px;
+    background: #fff;
+}
+
+.page-home .services #serv1 img,
+.page-home .services #serv2 img {
+    background-color: rgb(51, 168, 177);
+    padding: 18px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.page-home .services #serv1 h3,
+.page-home .services #serv2 h3 {
+    text-transform: capitalize;
+    color: rgb(51, 168, 177);
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.page-home .services #serv1 p,
+.page-home .services #serv2 p {
+    color: #666;
+    line-height: 24px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.page-home .as {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 60px;
+}
+
+.page-home #s {
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #1a202c;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.page-home #s:hover {
+    background-color: rgb(51, 168, 177);
+}
+
+/* Testimonials / Customers */
+.page-home .customers {
+    background-color: #f8fafc;
+    padding: 70px 20px;
+}
+
+.page-home .heading h4 {
+    text-align: center;
+    font-size: 32px;
+    color: #1a202c;
+    margin-bottom: 40px;
+}
+
+.page-home .flex2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.page-home .card {
+    padding: 35px 25px;
+    border-radius: 10px;
+    flex: 1 1 300px;
+    max-width: 360px;
+    border: 1px solid #e2e8f0;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.page-home .card:hover {
+    box-shadow: 0 12px 25px rgba(2, 174, 247, 0.15);
+    transform: translateY(-5px);
+    border-color: #02aef7;
+}
+
+.page-home .card span i {
+    font-size: 26px;
+    color: #00bcd4;
+    margin-bottom: 15px;
+}
+
+.page-home .card #par {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4a5568;
+    margin-bottom: 25px;
+}
+
+.page-home .bx {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.page-home .card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.page-home .card h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a202c;
+    margin: 0;
+}
+
+.page-home .card h2 {
+    font-size: 13px;
+    color: #00bcd4;
+    font-weight: 600;
+    margin: 0;
+}
+
+.page-home .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.page-home .c1,
+.page-home .c2,
+.page-home .c3 {
+    margin: 0 5px;
+    background-color: #0cb4c0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: moving 0.9s infinite alternate ease-in-out;
+}
+
+.page-home .c2 { animation-delay: 0.3s; }
+.page-home .c3 { animation-delay: 0.6s; }
+
+@keyframes moving {
+    to { opacity: 0.2; }
+}
+
+@media (max-width: 900px) {
+    .page-home .header .information {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .page-home .information .middle ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .page-home .abs p {
+        padding: 0 15px;
+    }
+}

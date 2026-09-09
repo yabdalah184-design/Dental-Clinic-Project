@@ -1,0 +1,152 @@
+.page-loginadmin {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/عيادة-أسنان-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-loginadmin .loginadmin-box {
+    background-color: rgba(15, 23, 42, 0.95);
+    width: 100%;
+    max-width: 650px;
+    padding: 40px;
+    box-shadow: 0 0 35px rgba(12, 180, 192, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(12, 180, 192, 0.4);
+    color: #fff;
+}
+
+.page-loginadmin .admin-head {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.page-loginadmin .admin-head h1 {
+    color: rgb(12, 180, 192);
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 8px;
+}
+
+.page-loginadmin .admin-head p {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.page-loginadmin .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .page-loginadmin .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.page-loginadmin .form-group {
+    margin-bottom: 18px;
+}
+
+.page-loginadmin label {
+    color: rgb(12, 180, 192);
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-loginadmin label span {
+    color: #ef4444;
+    margin-left: 2px;
+}
+
+.page-loginadmin input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(12, 180, 192, 0.4);
+    padding: 10px 14px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.2s;
+}
+
+.page-loginadmin input:focus {
+    border-color: rgb(12, 180, 192);
+    box-shadow: 0 0 12px rgba(12, 180, 192, 0.4);
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.page-loginadmin input.has-error {
+    border-color: #f87171;
+    background-color: rgba(239, 68, 68, 0.1);
+}
+
+.page-loginadmin .error-text {
+    color: #fca5a5;
+    font-size: 12px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.page-loginadmin .send {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.page-loginadmin #log {
+    background-color: rgb(12, 180, 192);
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.page-loginadmin #log:hover:not(:disabled) {
+    background-color: #088a94;
+}
+
+.page-loginadmin #log:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.page-loginadmin .demo-info {
+    margin-top: 25px;
+    padding: 12px;
+    background: rgba(12, 180, 192, 0.1);
+    border: 1px dashed rgba(12, 180, 192, 0.4);
+    border-radius: 6px;
+    font-size: 13px;
+    color: #cbd5e1;
+    text-align: center;
+}
+
+.page-loginadmin .demo-info code {
+    color: #0cb4c0;
+    font-weight: 600;
+}

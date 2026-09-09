@@ -1,0 +1,220 @@
+.page-services .serv1div {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/stock-photo-white-healthy-tooth-different-tools-for-dental-care-dental-background-1124412545-e1633675684902.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 30px 70px;
+    color: #fff;
+    text-align: center;
+}
+
+.page-services .serv1div h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-services .serv1div p {
+    font-size: 18px;
+    color: #cbd5e1;
+}
+
+/* Filter Strip */
+.page-services .services-filter-bar {
+    max-width: 1100px;
+    margin: -30px auto 40px;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 10;
+}
+
+.page-services .search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1 1 300px;
+    background: #f1f5f9;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+}
+
+.page-services .search-box i {
+    color: #0cb4c0;
+}
+
+.page-services .search-box input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-services .category-select {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    background: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #334155;
+    outline: none;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+.page-services .clear-btn {
+    padding: 10px 18px;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #64748b;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.2s;
+}
+
+.page-services .clear-btn:hover {
+    background: #e2e8f0;
+    color: #1e293b;
+}
+
+/* Service Grid */
+.page-services .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+}
+
+.page-services .service-card-item {
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    border-bottom: 4px solid #0cb4c0;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-services .service-card-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(12, 180, 192, 0.25);
+    background: linear-gradient(180deg, #ffffff 0%, #f0fdfa 100%);
+}
+
+.page-services .service-icon-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #0cb4c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    padding: 15px;
+    transition: transform 0.3s;
+}
+
+.page-services .service-card-item:hover .service-icon-box {
+    transform: rotate(10deg) scale(1.08);
+}
+
+.page-services .service-icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.page-services .service-card-item h2 {
+    font-size: 19px;
+    color: #1a202c;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-services .service-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.page-services .service-price {
+    font-weight: 700;
+    color: #0cb4c0;
+    font-size: 15px;
+    background: #e6fffa;
+    padding: 3px 10px;
+    border-radius: 12px;
+}
+
+.page-services .service-category {
+    font-size: 12px;
+    color: #64748b;
+    background: #f1f5f9;
+    padding: 3px 8px;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
+
+.page-services .service-card-item p {
+    font-size: 13px;
+    color: #64748b;
+    line-height: 22px;
+    flex: 1;
+}
+
+/* Middle Callout */
+.page-services .middleservices {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/dental_health_amid_covid_header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 20px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 60px;
+}
+
+.page-services .middleservices h3 {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.page-services .middleservices a {
+    display: inline-block;
+    padding: 12px 32px;
+    background-color: #0cb4c0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.page-services .middleservices a:hover {
+    background-color: #088a94;
+}

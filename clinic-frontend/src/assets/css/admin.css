@@ -1,0 +1,286 @@
+.page-admin {
+    padding: 40px 20px 80px;
+    background-color: #f8fafc;
+    min-height: 90vh;
+}
+
+.page-admin .admin-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-admin .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.page-admin .admin-header h1 {
+    font-size: 32px;
+    color: #1a202c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-admin .admin-header p {
+    color: #64748b;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+/* Tabs */
+.page-admin .admin-tabs {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.page-admin .admin-tab-btn {
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    padding: 10px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s;
+}
+
+.page-admin .admin-tab-btn.active {
+    background: #0cb4c0;
+    color: #fff;
+    border-color: #0cb4c0;
+    box-shadow: 0 4px 12px rgba(12, 180, 192, 0.25);
+}
+
+.page-admin .admin-tab-btn .badge {
+    background: rgba(0, 0, 0, 0.15);
+    color: inherit;
+    padding: 2px 7px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+
+/* Table Section */
+.page-admin .table-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+}
+
+.page-admin .table-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 1px solid #e2e8f0;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.page-admin .table-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0;
+}
+
+.page-admin .insert-btn {
+    background-color: rgba(32, 0, 216, 0.85);
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s;
+}
+
+.page-admin .insert-btn:hover {
+    background-color: #0cb4c0;
+}
+
+.page-admin .admin-table-wrapper {
+    overflow-x: auto;
+}
+
+.page-admin table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-admin table th {
+    background-color: #0cb4c0;
+    color: #fff;
+    padding: 14px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.page-admin table td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+    color: #334155;
+    vertical-align: middle;
+}
+
+.page-admin table tr:hover td {
+    background-color: #f8fafc;
+}
+
+.page-admin .action-btns {
+    display: flex;
+    gap: 8px;
+}
+
+.page-admin .edit-btn {
+    background-color: #1a202c;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.2s;
+}
+
+.page-admin .edit-btn:hover {
+    background-color: #0cb4c0;
+}
+
+.page-admin .delete-btn {
+    background-color: #ef4444;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: 0.2s;
+}
+
+.page-admin .delete-btn:hover {
+    background-color: #b91c1c;
+}
+
+.page-admin .status-pill {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.page-admin .status-pill.confirmed {
+    background-color: #d1fae5;
+    color: #065f46;
+}
+
+.page-admin .status-pill.pending {
+    background-color: #fef3c7;
+    color: #92400e;
+}
+
+.page-admin .status-pill.cancelled {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+/* Modal Form Styles */
+.page-admin .admin-modal-form .form-group {
+    margin-bottom: 16px;
+}
+
+.page-admin .admin-modal-form label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 6px;
+}
+
+.page-admin .admin-modal-form input,
+.page-admin .admin-modal-form select,
+.page-admin .admin-modal-form textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #1e293b;
+    box-sizing: border-box;
+}
+
+.page-admin .admin-modal-form input:focus,
+.page-admin .admin-modal-form select:focus,
+.page-admin .admin-modal-form textarea:focus {
+    border-color: #0cb4c0;
+    box-shadow: 0 0 0 3px rgba(12, 180, 192, 0.2);
+}
+
+.page-admin .admin-modal-form .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 24px;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 18px;
+}
+
+.page-admin .admin-modal-form .cancel-modal-btn {
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    color: #475569;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.page-admin .admin-modal-form .save-modal-btn {
+    background: #0cb4c0;
+    border: none;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.page-admin .admin-modal-form .save-modal-btn:hover {
+    background: #088a94;
+}
