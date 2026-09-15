@@ -20,6 +20,11 @@ app.use(express.json());
 // Connect Database
 connectDB();
 
+// Root Route
+app.get('/', (req, res) => {
+  res.send('Dental Clinic API is running successfully!');
+});
+
 // Routes
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/doctors', require('./routes/doctorRoutes'));
