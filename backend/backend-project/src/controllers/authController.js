@@ -6,7 +6,7 @@ const generateToken = (id, role) => {
   return jwt.sign({ id, role }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRE || '30d' });
 };
 
-// 1. Register Patient / User
+
 exports.register = async (req, res) => {
   try {
     const { name, email, password, phone, role } = req.body;
@@ -16,11 +16,11 @@ exports.register = async (req, res) => {
       return res.status(400).json({ success: false, message: 'Email already exists' });
     }
 
-    // تشفير الباسورد يدويًا بـ bcrypt قبل التخزين
+    
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
 
-    // قبول 'user' أو 'patient' وتعيين الافتراضي كـ 'patient'
+    
     const assignedRole = (role === 'user' || role === 'patient') ? role : 'patient';
 
     const user = await User.create({
@@ -51,7 +51,7 @@ exports.register = async (req, res) => {
   }
 };
 
-// 2. Patient / User Login
+
 exports.login = async (req, res) => {
   try {
     const { email, name, username, password } = req.body;
@@ -97,7 +97,7 @@ exports.login = async (req, res) => {
   }
 };
 
-// 3. Admin Login
+
 exports.adminLogin = async (req, res) => {
   try {
     const { email, name, username, password } = req.body;

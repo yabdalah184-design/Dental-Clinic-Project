@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-// مزامنة المعرفات الرقمية للسجلات القديمة إن وُجدت لضمان التوافق مع الفرونت إند
+
 const syncNumericIds = async () => {
   try {
     const models = [

@@ -1,6 +1,4 @@
-/**
- * Helper to generate the next sequential numeric ID for any Mongoose Model.
- */
+
 const getNextId = async (Model) => {
   const lastDoc = await Model.findOne().sort({ id: -1 }).select('id');
   if (lastDoc && typeof lastDoc.id === 'number') {
@@ -9,9 +7,7 @@ const getNextId = async (Model) => {
   return 1;
 };
 
-/**
- * Builds a flexible MongoDB filter to match by either ObjectId or numeric/string id.
- */
+
 const buildIdFilter = (id) => {
   if (id === undefined || id === null) {
     return { _id: null };
